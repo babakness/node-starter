@@ -1,0 +1,30 @@
+{
+  "name": "node-starter-with-stdesm-ava-nodemon",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava",
+    "test-watch": "npm run test -- --watch",
+    "dev": "nodemon index.js"
+  },
+  "@std/esm": {
+    "esm": "js",
+    "cjs": true,
+    "await": true
+  },
+  "ava": {
+    "require": [
+      "@std/esm"
+    ]
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@std/esm": "^0.16.0"
+  },
+  "devDependencies": {
+    "ava": "^0.23.0",
+    "nodemon": "^1.12.1"
+  }
+}

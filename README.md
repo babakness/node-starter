@@ -20,7 +20,7 @@ Treat `main.js` as the entry point and load from `index.js`. If using Babel / We
 
 Be aware that this particular config enables root level `await` statements. To be `babel` compatible, either additional plugins would need to be used or this feature should not be used or should be disabled. (See `package.json`).
 
-Basic commands
+Basic commands 
 
 `yarn dev` - Use `nodemon` to watch for file changes and re-execute on change.
 

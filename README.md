@@ -12,4 +12,4 @@ This starter includes Ava and configures it to use `@std/esm` so that library fi
 
 # Debugging
 
-This starter template also includes debugger configurations for use with Visual Studio Code. 
+This starter template also includes debugger configurations for use with Visual Studio Code.

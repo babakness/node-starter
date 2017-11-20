@@ -22,7 +22,9 @@ Be aware that this particular config enables root level `await` statements. To b
 
 Basic commands
 
-`yarn dev` - Use `nodemon` to watch for file changes and re-execute on change
+`yarn dev` - Use `nodemon` to watch for file changes and re-execute on change.
+
 `yarn test` - Run tests with `ava`, configured to use `@std/esm` as a loader.
+
 `yarn test-watch` - Same as above only watch for changes and re-run tests.
 
